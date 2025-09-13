@@ -5,7 +5,7 @@ A secure system to mask PII data and recover it back using encryption password.
 **How It Works**
 
 - Import required libraries - Load all necessary Python packages
-- Load the dataset - Place your CSV file in the data folder and load it
+- Load the dataset - CSV file in the data folder will be loaded
 - Detect PII columns - System automatically finds columns with personal information
 - Create encryption - System asks you to create a password for this dataset
 - Apply masking - All PII data gets masked while preserving original format
