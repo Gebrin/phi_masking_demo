@@ -21,3 +21,11 @@ A secure system to mask PII data and recover it back using encryption password.
 - IP addresses
 - Dates
 - Organization names
+
+**File Structure**
+
+project/
+├── data/                     # Put your CSV files here
+├── results/                  # Masked datasets go here
+│   └── reversed_datasets/    # Recovered datasets go here
+└── config/                   # Session info and encrypted mappings
